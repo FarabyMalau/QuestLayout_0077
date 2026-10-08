@@ -17,6 +17,10 @@ import androidx.compose.foundation.layout.height
 import androidx.compose.material3.Card
 import androidx.compose.material3.CardDefaults
 import androidx.compose.ui.res.colorResource
+import androidx.compose.foundation.Image
+import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.size
+import androidx.compose.ui.res.painterResource
 
 @Composable
 fun ActivitasPertama(modifier: Modifier = Modifier) {
@@ -46,5 +50,13 @@ fun ActivitasPertama(modifier: Modifier = Modifier) {
             containerColor = colorResource(R.color.card_0_bg)
         )
     ) {
+    }
+    Row {
+        val gambar = painterResource(R.drawable.logo_umy)
+        Image(
+            painter = gambar,
+            contentDescription = null,
+            modifier = Modifier.size(100.dp).padding(all = 5.dp)
+        )
     }
 }

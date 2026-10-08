@@ -21,6 +21,9 @@ import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.size
 import androidx.compose.ui.res.painterResource
+import androidx.compose.foundation.layout.width
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.text.font.FontFamily
 
 @Composable
 fun ActivitasPertama(modifier: Modifier = Modifier) {
@@ -57,6 +60,22 @@ fun ActivitasPertama(modifier: Modifier = Modifier) {
             painter = gambar,
             contentDescription = null,
             modifier = Modifier.size(100.dp).padding(all = 5.dp)
+        )
+    }
+    Spacer(modifier = Modifier.width(30.dp))
+    Column {
+        Text(
+            "Novan Simalakama",
+            fontSize = 30.sp,
+            fontFamily = FontFamily.Cursive,
+            color = Color.White,
+            modifier = Modifier.padding(top = 15.dp)
+        )
+        Text(
+            stringResource(R.string.alamat),
+            fontSize = 20.sp,
+            color = Color.Yellow,
+            modifier = Modifier.padding(top = 10.dp)
         )
     }
 }

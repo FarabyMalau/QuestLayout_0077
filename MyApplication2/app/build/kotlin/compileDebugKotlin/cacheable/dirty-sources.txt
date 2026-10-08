@@ -1,0 +1,5 @@
+C:\Users\WIN11PC\AndroidStudioProjects\MyApplication2\app\src\main\java\com\example\myapplication\ui\theme\MainActivity.kt
+C:\Users\WIN11PC\AndroidStudioProjects\MyApplication2\app\src\main\java\com\example\myapplication\ui\theme\Color.kt
+C:\Users\WIN11PC\AndroidStudioProjects\MyApplication2\app\src\main\java\com\example\myapplication\ui\theme\Type.kt
+C:\Users\WIN11PC\AndroidStudioProjects\MyApplication2\app\src\main\java\com\example\myapplication\ui\theme\Tataletak.kt
+C:\Users\WIN11PC\AndroidStudioProjects\MyApplication2\app\src\main\java\com\example\myapplication\ui\theme\Theme.kt

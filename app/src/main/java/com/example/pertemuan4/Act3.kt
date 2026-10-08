@@ -24,6 +24,7 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.foundation.layout.width
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.font.FontFamily
+import androidx.compose.foundation.layout.Box
 
 @Composable
 fun ActivitasPertama(modifier: Modifier = Modifier) {
@@ -76,6 +77,16 @@ fun ActivitasPertama(modifier: Modifier = Modifier) {
             fontSize = 20.sp,
             color = Color.Yellow,
             modifier = Modifier.padding(top = 10.dp)
+        )
+    }
+    Box(
+        modifier = Modifier.fillMaxSize()
+    ) {
+        Text(
+            stringResource(R.string.copy),
+            modifier = Modifier
+                .align(Alignment.BottomCenter)
+                .padding(bottom = 50.dp)
         )
     }
 }
